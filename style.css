@@ -1,0 +1,30 @@
+/* style.css */
+
+/* Body Font and Link Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4B9CD3; /* Light Blue */
+}
+
+/* Button Styling */
+button {
+    transition: background-color 0.3s ease;
+}
+
+/* Text Input and Textarea Styles */
+input, textarea {
+    border-color: #4B9CD3;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #005f73;
+    outline: none;
+}
